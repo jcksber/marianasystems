@@ -1,0 +1,217 @@
+/**! Custom Styles Go Here (for easy template updating) **/
+
+
+/*@@@@@@@@@@@@@@@ COMPLIMENTS OF KAMIKAZE @@@@@@@@@@@@@@@*/
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	z-index: 999999999999999999999999999999999;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 0;
+	background: rgba(3,51,89,0.95);
+	border: none;
+	z-index: 999999999999999999999999999999999;
+}
+::-webkit-scrollbar-track-piece {
+	background: rgba(255,255,255,0.1);
+	border: none;
+	z-index: 999999999999999999999999999999999;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.nav-bar .logo {
+    max-height: 42%;
+    margin: 0;
+}
+
+.menu {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.modal-content {
+	width: 75% !important; 
+	max-width: 1100px;
+	height: 72% !important; 
+	max-height: 480px !important;
+	padding: 2% !important;
+}
+
+.footer__mark {
+	text-indent: -9000px;
+	background: url(../img/footer-mark.png) no-repeat left center;
+	background-size: contain;
+	width: 80px;
+	height: 35px;
+}
+@media (max-width: 767px) {
+	.footer__mark {
+		margin: 0 auto;
+		margin-bottom: 15px;
+		background-position: center center;
+	}
+}
+
+footer.bg--dark {
+	background-color: #041720;
+}
+
+.bg--primary {
+	background: #041720;
+}
+.gradient--active [data-overlay].bg--primary:before,
+.gradient--active .bg--primary {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#041720+0,033358+100 */
+	background: rgb(4,23,32); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(4,23,32,1) 0%, rgba(3,51,88,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(4,23,32,1) 0%,rgba(3,51,88,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(4,23,32,1) 0%,rgba(3,51,88,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#041720', endColorstr='#033358',GradientType=1 ); /* IE6-9 */
+}
+
+.section-snippet-benefits .boxed span {
+	line-height: 1.5em;
+	margin-top: 15px;
+}
+@media (max-width: 767px) {
+	.section-snippet-benefits .boxed-holder .boxed {
+		white-space: normal;
+	}
+	.modal-content {
+		width: 100% !important;
+		height: 80% !important;
+		overflow-y: scroll !important;
+	}
+	.modal-img {
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 400px) {
+	.hide-at-400 {
+		display: none;
+	}
+}
+
+.home-white {
+	background-color: #fff;
+}
+.home-dark {
+	background-color: #041720;
+}
+
+.home-dark.gradient--bg-fade:before {
+    background: linear-gradient(to bottom, #033358 20%, rgba(0, 0, 0, 0) 100%);
+}
+
+.home-diver h2,
+.home-diver p,
+.home-diver a,
+.home-diver .btn .btn__text, .btn i {
+	color: #fff;
+	border-color: #fff;
+}
+.modal-trigger > .col-sm-3 {
+	padding-bottom: 15px;
+}
+.modal-trigger > .col-sm-3:hover,
+.modal-trigger > .col-sm-4:hover { 
+	cursor: pointer; 
+}
+.icon-feature { background: white; }
+.icon-feature > h6 { 
+	text-decoration: underline; 
+	margin-bottom: 0; 
+	transition: 0.2s all linear;
+}
+.icon-feature > h6:hover { 
+	color: #111; 
+}
+.modal-content 
+{
+	overflow: hidden;
+}
+.modal-content > h3 { 
+	margin-bottom: 2px; 
+	margin-left: 15px; 
+}
+.modal-img {
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	border: 8px solid rgba(3,50,86,0.9);
+}
+.modal-img > img {
+	width: 100%; height: 100%;
+	margin: 0; padding: 0;
+}
+.modal-text {
+	padding-top: 32px;
+	max-height: 90%;
+	font-size: 1.1em;
+}
+.modal-text > h4 { 
+	margin-bottom: 2px; 
+}
+.modal-text > p { 
+	margin-bottom: 4px; 
+}
+
+.panel-img, 
+.panel-img img { 
+	width: 100%; 
+	margin: 0; padding: 0; 
+}
+
+.section-about-history,
+.section-team-large,
+.section-team-small {
+	padding-bottom: 0 !important;
+}
+.section-about-history hr,
+.section-team-large hr,
+.section-team-small hr {
+	width: 95%; margin: 0 auto;
+}
+
+
+@media (max-width: 1200px) {
+	.modal-content {
+		width: 80% !important; 
+		height: 80% !important; 
+	}
+}
+@media (max-width: 1000px) {
+	.modal-content {
+		width: 85% !important;
+		height: 85% !important;
+	}
+}
+@media (max-width: 800px) {
+	.modal-content {
+		width: 90% !important;
+		height: 90% !important;
+	}
+	.about-text {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+#about-push { top: 180px; }
+#contact-push { top: 120px; }
+#news-push { top: 150px; }
+
+@media (max-width: 767px) {
+	#about-push,
+	#contact-push,
+	#news-push { top: 0; }
+}
+
+
+
+
+
+
+
+
